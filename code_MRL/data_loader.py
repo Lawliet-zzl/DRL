@@ -76,10 +76,10 @@ def getLSUN(mean, std, version, batch_size=128, shuffle=True):
 	])
 	if version == 'crop':
 		print("Loading LSUN (c) dataset (out-of-distribution)")
-		dataset = datasets.ImageFolder('../../data/LSUN_crop',transform=transform)
+		dataset = datasets.ImageFolder('../data_MRL/LSUN_crop',transform=transform)
 	elif version == 'resize':
 		print("Loading LSUN (r) dataset (out-of-distribution)")
-		dataset = datasets.ImageFolder('../../data/LSUN_resize',transform=transform)
+		dataset = datasets.ImageFolder('../data_MRL/LSUN_resize',transform=transform)
 
 	dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=9)
 	return dataloader
@@ -92,10 +92,10 @@ def getTinyImagenet(mean, std, version, batch_size=128, shuffle=True):
 	])
 	if version == 'crop':
 		print("Loading TinyImagenet (c) dataset (out-of-distribution)")
-		dataset = datasets.ImageFolder('../../data/Imagenet_crop',transform=transform)
+		dataset = datasets.ImageFolder('../data_MRL/Imagenet_crop',transform=transform)
 	elif version == 'resize':
 		print("Loading TinyImagenet (r) dataset (out-of-distribution)")
-		dataset = datasets.ImageFolder('../../data/Imagenet_resize',transform=transform)
+		dataset = datasets.ImageFolder('../data_MRL/Imagenet_resize',transform=transform)
 	dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=9)
 	return dataloader
 
