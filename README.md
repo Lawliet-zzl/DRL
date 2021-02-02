@@ -10,8 +10,8 @@
 
 ## Datasets
 ### In-distribution Datasets
-* [CIFAR10] (https://www.cs.toronto.edu/~kriz/cifar.html)
-* [CIFAR100] (https://www.cs.toronto.edu/~kriz/cifar.html)
+* [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html)
+* [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html)
 Our codes will download the two in-distribution datasets automatically.
 
 ### Out-of-Distribtion Datasets
