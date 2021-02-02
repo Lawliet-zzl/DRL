@@ -22,7 +22,7 @@ The following four out-of-distribution datasets are provided by [ODIN](https://g
 * [LSUN (r)](https://www.dropbox.com/s/moqh2wh8696c3yl/LSUN_resize.tar.gz)
 * [LSUN (c)](https://www.dropbox.com/s/fhtsw1m3qxlwj6h/LSUN.tar.gz)
 
-Each out-of-distribution dataset should be put in the corresponding subdir in [xxx](./xxx)
+Each out-of-distribution dataset should be put in the corresponding subdir in [./data_MRL](./data_MRL)
 
 ## Train and Test
-Run the script "demo.sh". 
+Run the script [demo.sh](./code_MRL/demo.sh). 
