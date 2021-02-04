@@ -6,5 +6,5 @@ NAME='0'
 
 python main_baseline.py --model ${MODEL} --dataset ${DATASET} --name=${NAME}\
 
-python main_MRL.py --pretrained-model ${MODEL} --model ${MODEL} --dataset ${DATASET} --name=${NAME}\
+python main_RCL.py --pretrained-model ${MODEL} --model ${MODEL} --dataset ${DATASET} --name=${NAME}\
  --eps ${EPS} --alpha ${ALPHA}\
